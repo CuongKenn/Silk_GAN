@@ -1,0 +1,17 @@
+field_name,required,description,example
+image_id,yes,Unique ID for each sample,lace_000001
+file_name,yes,RGB image file name,lace_000001.png
+split,yes,Dataset split train/val/test,train
+lace_style,yes,Pattern category,floral
+color_family,no,Dominant color family,white
+source,yes,Data source or owner,own_capture
+license,yes,Usage rights,internal_research
+lighting,no,Lighting condition,softbox_front
+camera_angle,no,Expected near top-down view,top_down
+resolution,no,Original resolution,3024x3024
+has_mask,no,Whether mask exists,true
+has_edge,no,Whether edge map exists,false
+has_normal,no,Whether normal map exists,false
+has_roughness,no,Whether roughness map exists,false
+has_height,no,Whether height map exists,false
+notes,no,Any quality notes,slight_shadow_left

@@ -1,0 +1,2 @@
+image_id,file_name,split,lace_style,color_family,source,license,lighting,camera_angle,resolution,has_mask,has_edge,has_normal,has_roughness,has_height,notes
+lace_000001,lace_000001.png,train,floral,white,own_capture,internal_research,softbox_front,top_down,3024x3024,false,false,false,false,false,clean_sample

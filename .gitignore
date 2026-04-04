@@ -1,0 +1,19 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# Large/generated assets
+checkpoints/
+outputs/
+data/raw/
+data/interim/
+data/processed/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/

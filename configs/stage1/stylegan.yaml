@@ -1,0 +1,27 @@
+seed: 42
+
+data:
+  train_dir: data/processed/train
+  image_size: 512
+  dataset_zip: data/processed/stylegan2_train.zip
+
+stylegan2_ada:
+  repo_dir: third_party/stylegan2-ada-pytorch
+  repo_url: https://github.com/NVlabs/stylegan2-ada-pytorch.git
+  auto_clone: true
+
+train:
+  cfg: auto
+  gpus: 1
+  batch_size: 8
+  kimg: 3000
+  gamma: 10.0
+  snap: 10
+  metrics: fid50k_full
+  mirror: true
+  aug: ada
+  workers: 4
+  resume: ""
+
+paths:
+  checkpoint_dir: checkpoints/stage1/stylegan2_ada

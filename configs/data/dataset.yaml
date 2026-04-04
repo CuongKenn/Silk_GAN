@@ -1,0 +1,22 @@
+seed: 42
+
+image:
+  size: 512
+
+filters:
+  min_sharpness: 80.0
+  max_border_mse: 1200.0
+
+split:
+  train: 0.8
+  val: 0.1
+  test: 0.1
+
+paths:
+  raw_rgb_dir: data/raw/rgb
+  cleaned_dir: data/interim/cleaned
+  normalized_dir: data/interim/normalized
+  tileable_dir: data/interim/tileable
+  edge_dir: data/raw/edge
+  processed_dir: data/processed
+  metadata_dir: data/metadata

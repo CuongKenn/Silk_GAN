@@ -1,0 +1,15 @@
+model:
+  base_model: runwayml/stable-diffusion-v1-5
+  lora_dir: checkpoints/stage2/lora
+
+paths:
+  input_dir: outputs/samples/stage1_stylegan
+  output_dir: outputs/samples/stage2_refined
+
+infer:
+  resolution: 512
+  strength: 0.35
+  guidance_scale: 6.5
+  num_steps: 50
+  prompt: "ultra detailed lace textile, intricate threads, perforated pattern, seamless texture"
+  negative_prompt: "blurry, over-smoothed, plastic, artifacts, watermark, text"
